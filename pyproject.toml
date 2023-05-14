@@ -35,6 +35,7 @@ redis = "4.5.1"
 llama-index = "0.5.4"
 azure-identity = "^1.12.0"
 azure-search-documents = {version = "11.4.0a20230509004", source = "azure-sdk-dev"}
+# torch = { url = "https://download.pytorch.org/whl/rocm5.4.2/torch-2.0.1%2Brocm5.4.2-cp310-cp310-linux_x86_64.whl"}
 
 [tool.poetry.scripts]
 start = "server.main:start"
