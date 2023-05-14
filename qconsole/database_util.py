@@ -80,4 +80,5 @@ def query_database(query_prompt: str) -> Dict[str, Any]:
 
 
 if __name__ == "__main__":
-    upsert_file("/coldata/DataSets/chatgpt-plugins/")
+    data_dir = os.path.join(os.path.dirname(__file__), "datasets")
+    upsert_file(data_dir)
